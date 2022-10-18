@@ -1,0 +1,11 @@
+#!/bin/bash
+
+#Get encryption Password
+echo "What's the Encryption Password?"
+read pass
+
+#Create script to decrypt agent file and have it run, then delete the script
+echo "openssl enc -d -aes-256-cbc -pbkdf2 -pass 'pass:$pass' -in agent.txt -out chat/group" > agent.sh
+chmod 777 agent.sh
+./agent.sh
+rm agent.sh
