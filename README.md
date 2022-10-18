@@ -17,3 +17,7 @@ HOW TO USE:
 3) 'git commit https://github.com/n3onhacks/scud-client.git'
 4) Make sure the file from the LINK (agent.txt) is placed into the same folder as scud.sh
 5) Chmod 777 the folder, run scud ( ./scud.sh ) and follow prompts.
+
+<h2>Release:</h2>
+Version 1.0 - BETA
+- This is a POC, unstable version and is not encrypted fully yet. Unencrypted chat files will hit the server until it's wiped out after 30mins from launch. Once we are out of Beta with a stable version it will be full end-to-end encryption.
