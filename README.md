@@ -10,7 +10,7 @@ Note: make sure you have openssl (apt install openssl) and sshpass (apt install 
 
 The server will produce an Agent file for those who want to chat off the server using it for uploads/downloads via SSH.
 
-HOW TO USE:
+<h2>HOW TO USE:</h2> <p>
 
 1) Make sure you have openssl and sshpass installed.
 2) The person who is running the server will provide you a LINK and Password.
@@ -18,6 +18,6 @@ HOW TO USE:
 4) Make sure the file from the LINK (agent.txt) is placed into the same folder as scud.sh
 5) Chmod 777 the folder, run scud ( ./scud.sh ) and follow prompts.
 
-<h2>Release:</h2>
+<h2>Release:</h2> <p>
 Version 1.0 - BETA
 - This is a POC, unstable version and is not encrypted fully yet. Unencrypted chat files will hit the server until it's wiped out after 30mins from launch. Once we are out of Beta with a stable version it will be full end-to-end encryption.
