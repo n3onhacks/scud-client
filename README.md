@@ -10,7 +10,7 @@ Note: make sure you have openssl (apt install openssl) and sshpass (apt install 
 
 The server will produce an Agent file for those who want to chat off the server using it for uploads/downloads via SSH.
 
-<h2>HOW TO USE:</h2> <p>
+<h2>HOW TO USE: CLIENT</h2> <p>
 
 1) Make sure you have openssl and sshpass installed.
 2) The person who is running the server will provide you a LINK and Password.
