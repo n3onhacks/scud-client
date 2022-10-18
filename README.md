@@ -13,7 +13,7 @@ The server will produce an Agent file for those who want to chat off the server 
 HOW TO USE:
 
 1) Make sure you have openssl and sshpass installed.
-2) git commit after clicking on the CLIENT folder.
-3) The person who is running the server will provide you a LINK and Password.
-4) Download the file from the LINK (agent.txt) to the same folder as scud.sh
+2) The person who is running the server will provide you a LINK and Password.
+3) 'git commit https://github.com/n3onhacks/scud-client.git'
+4) Make sure the file from the LINK (agent.txt) is placed into the same folder as scud.sh
 5) Chmod 777 the folder, run scud ( ./scud.sh ) and follow prompts.
