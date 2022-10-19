@@ -37,7 +37,7 @@ paste -d / name1.txt 1.txt > name.txt
 name=$(cat name.txt)
 
 read update
-date > date.txt
+date +%H:%M > date.txt
 date=$(cat date.txt | cut -f4 -d " ")
 
 echo "$date $name: $update" >> chat.txt
