@@ -44,12 +44,11 @@ cat chat.txt
 echo "${RED}Number of Users: $numUsers - User Names: $users ${ENDCOLOR}"
 echo "${GREEN}$statusx${ENDCOLOR}"
 
-sleep 3
+sleep 1
 #upload
 sshpass -p $dracula scp chat.txt $servuIp:$logLoc/chat.txt
 
-sleep 2
+sleep 1
 #Download
 sshpass -p $dracula scp $servuIp:$logLoc/outgoing/chat.txt .
-
 exec $0
