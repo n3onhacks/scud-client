@@ -13,8 +13,6 @@ exit
 
 trap clearout INT
 
-#echo "Welcome to the Chat $name" > status.txt
-
 RED="\e[31m"
 GREEN="\e[32m"
 ENDCOLOR="\e[0m"
@@ -37,9 +35,8 @@ paste -d / name1.txt 1.txt > name.txt
 name=$(cat name.txt)
 
 read update
-date +%H:%M > date.txt
-date=$(cat date.txt | cut -f4 -d " ")
-
+date > date.txt
+date=$(cat date.txt | cut -f4 -d " " | sed 's/^../00/')
 echo "$date $name: $update" >> chat.txt
 
 clear
